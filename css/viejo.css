@@ -1,0 +1,159 @@
+body {
+    background-color: #F2E8DF;
+    font-family: 'roboto', serif;
+}
+
+.logo {
+    font-size: 200%;
+    color: #F2B9AC;
+}
+
+footer {
+    background-color: #2C3540;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 75px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.footerimg {
+    padding: 0px 10px 0px 10px;
+}
+
+.footerimg2 {
+    padding-right: 50px;
+}
+
+.navbar {
+    font-weight: bolder;
+}
+
+.d-block {
+    height: 300px;
+    width: 90%;
+}
+
+.proyectosIndex {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.padding {
+    padding: 0px 0px 20px 20px;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #2C3540;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.titulo  {
+    color:#F2A9A2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    margin: 0px 500px 0px 700px;
+}
+
+.fotoPadre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tituloPadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tituloHijo {
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+#grillaPortofolio {
+    display: grid;
+    grid-template-areas: 
+    "proyecto1 proyecto11"
+    "proyecto2 proyecto22";
+    grid-template-rows: auto;
+    grid-template-rows: 50% 50%;
+    padding: 20px 50px 0px 50px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+div#proyecto1 {
+    grid-area: proyecto1;
+}
+
+div#proyecto11 {
+    grid-area: proyecto11;
+}
+
+div#proyecto2 {
+    grid-area: proyecto2;
+}
+
+div#proyecto22 {
+    grid-area: proyecto22;
+}
+
+.fotoPortofolio {
+    width: 800px;
+    height: 400px;
+}
+
+section div p {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #2C3540;
+}
+
+#gridCv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin: 0px 300px 0px 500px;
+    grid-row-gap: 20px;
+}
+
+#gridCv h2 {
+    font-size: 35px;
+}
+
+#gridCv p {
+    font-size: 20px;
+}
+
+form input {
+    width: 500px;
+    height: 30px;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: bold;
+}
